@@ -1,7 +1,27 @@
+<button id="plexButton">Plex</button>
 <button id="sonarrButton">Sonarr</button>
+<button id="radarrButton">Radarr</button>
+<button id="prowlarrButton">Prowlarr</button>
+<button id="sabnzbdButton">SABnzbd</button>
+<button id="qbittorrentButton">qBittorrent</button>
 
 <script type="text/javascript">
+    document.getElementById("plexButton").onclick = function () {
+        location.href = "http://plex.davidshelby.com";
+    };
     document.getElementById("sonarrButton").onclick = function () {
-        location.href = "http://www.davidshelby.com:8989";
+        location.href = "http://sonarr.davidshelby.com";
+    };
+    document.getElementById("radarrButton").onclick = function () {
+        location.href = "http://radarr.davidshelby.com";
+    };
+    document.getElementById("prowlarrButton").onclick = function () {
+        location.href = "http://prowlarr.davidshelby.com";
+    };
+    document.getElementById("sabnzbdButton").onclick = function () {
+        location.href = "http://sabnzbd.davidshelby.com";
+    };
+    document.getElementById("qbittorrentButton").onclick = function () {
+        location.href = "http://qbittorrent.davidshelby.com";
     };
 </script>
